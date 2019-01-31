@@ -4,6 +4,12 @@ import App from './App.vue';
 
 import BootstrapVue from 'bootstrap-vue';
 
+import vSuggest from 'v-suggest';
+Vue.use(vSuggest);
+
+import vSelect from 'vue-select'
+Vue.component('v-select', vSelect)
+
 
 import HelloWorld from "./components/HelloWorld.vue";
 import Autocomplete from "./views/Autocomplete.vue";
